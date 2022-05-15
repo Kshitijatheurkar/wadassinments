@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <meta http-equiv="X-UA-Compatible"content="IE=edge"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+        <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+        <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    </head>
+    <body>
+        <div id="page1" data-role="page" >
+            <div data-role="header">
+                <h1>page1 Header</h1>
+            </div>
+            <div data-role="content">
+                <p align="center" style="color: rgb(55, 0, 255);">This is a paragraph</p>
+            </div>
+            <div data-role="footer">
+                <h4>page1 Footer</h4>    
+            <a href="#page2" align="" style="color: brown;">Go to page2</a>
+            </div>
+        </div>
+        <div id="page2"  data-role="page">
+            <div data-role="header">
+                <h1>page2 Header</h1>
+            </div>
+            <div data-role="content">
+                <p align="center" style="color: rgb(255, 0, 64);">This is a paragraph</p>
+            </div>
+            <div data-role="footer">
+                <h4>page2 Footer</h4>
+            <h1><a href="#page1" style="color: rgb(42, 165, 52);">Go to page1</a></h1>
+            </div>
+        </div>
+    </body>
+</html>
